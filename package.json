@@ -1,0 +1,24 @@
+{
+  "name": "ts-extra",
+  "version": "1.0.0",
+  "description": "Extended utility types and functions for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natevolker/ts-extra.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Utility",
+    "Types"
+  ],
+  "author": "Nate Volker <natevolker@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natevolker/ts-extra/issues"
+  },
+  "homepage": "https://github.com/natevolker/ts-extra#readme"
+}
