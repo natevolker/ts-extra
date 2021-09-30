@@ -1,5 +1,5 @@
 {
-  "name": "@volker/ts-extra",
+  "name": "@volker/ts-utils",
   "version": "1.0.0",
   "description": "Extended utility types and functions for TypeScript",
   "main": "dist/index.js",
