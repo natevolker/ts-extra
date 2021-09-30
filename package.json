@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natevolker/ts-extra.git"
+    "url": "git+https://github.com/oakfinch/ts-extra.git"
   },
   "keywords": [
     "TypeScript"
@@ -26,9 +26,9 @@
   "author": "Nate Volker <natevolker@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/natevolker/ts-extra/issues"
+    "url": "https://github.com/oakfinch/ts-extra/issues"
   },
-  "homepage": "https://github.com/natevolker/ts-extra#readme",
+  "homepage": "https://github.com/oakfinch/ts-extra#readme",
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
     "@types/jest": "^27.0.2",
