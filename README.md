@@ -17,7 +17,7 @@ yarn add -D ts-extra
 
 ## Usage
 
-See [./docs/modules.html](the API documentation) for details
+See [the API documentation](https://natevolker.github.io/ts-extra/modules.html) for details
 
 ## Examples
 
