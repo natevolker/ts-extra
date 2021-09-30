@@ -2,7 +2,9 @@
 Extended utility types and functions for TypeScript
 
 ========
+
 [https://github.com/natevolker/ts-extra](github) | [https://natevolker.github.io/ts-extra/modules.html](docs)
+
 ========
 
 ## Installation
