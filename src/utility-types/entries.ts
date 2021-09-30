@@ -5,7 +5,6 @@ import { Tuple } from './tuple';
 /**
  * A Tuple of [key, value] pairs constructed from `T`
  *
- * @typedef {Object} Entries
  * @category Utility
  * @example
  * ```

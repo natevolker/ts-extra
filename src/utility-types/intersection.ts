@@ -3,7 +3,6 @@
 /**
  * Converts a Union `T` to an Intersection
  *
- * @typedef {Object} Intersection
  * @category Utility
  * @example
  * ```

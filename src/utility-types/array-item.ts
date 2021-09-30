@@ -3,7 +3,6 @@
 /**
  * A union of all possible values in array `T`
  *
- * @typedef {Object} ArrayItem
  * @category Utility
  * @example
  * ```

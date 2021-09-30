@@ -2,18 +2,9 @@ import { AnyArray, AnyFunction } from '../types';
 import { Intersection } from './intersection';
 
 /**
- * Returns the length of the Array `T`, provided it is not `number`
- *
- * @typedef {Object} ArrayItem
  * @hidden
  * @ignore
  * @internal
- * @category Utility
- * @example
- * ```
- * type A = DefinedLength<string[]> // === never
- * type B = DefinedLength<['hello', 'goodbye']> // === 2
- * ```
  */
 type DefinedLength<T extends Readonly<AnyArray>> =
   number extends T['length'] ? never : T['length'];

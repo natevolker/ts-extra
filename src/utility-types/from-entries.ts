@@ -6,7 +6,6 @@ import { Index } from '../types/object-index';
 /**
  * An object constructed from entries `T` (like those returned from `Object.entries`)
  *
- * @typedef {Object} FromEntries
  * @category Utility
  * @example
  * ```

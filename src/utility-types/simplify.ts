@@ -4,7 +4,6 @@ import { AnyObject } from '../types';
 /**
  * Attempts to expand type definitions
  *
- * @typeParam T - The type to be simplified
  * @category Utility
  * @example
  * ```

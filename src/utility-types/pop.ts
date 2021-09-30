@@ -5,7 +5,6 @@ import { ArrayItem } from './array-item';
  * Returns a Tuple where the first item represents the last item of `T`,
  * and the second item represents all the remaining items of `T`
  *
- * @typedef {Object} Pop
  * @category Utility
  * @example
  * ```

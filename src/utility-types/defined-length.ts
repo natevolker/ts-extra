@@ -3,7 +3,6 @@ import { AnyArray } from '../types';
 /**
  * Returns the length of the Array `T`, provided it is not `number`
  *
- * @typedef {Object} ArrayItem
  * @category Utility
  * @example
  * ```

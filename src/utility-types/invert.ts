@@ -6,7 +6,6 @@ import { Intersection } from './intersection';
 /**
  * Inverts the keys and values of type `T`
  *
- * @typedef {Object} Invert
  * @category Utility
  * @example
  * ```

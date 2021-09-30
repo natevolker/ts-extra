@@ -1,7 +1,6 @@
 /**
  * Removes the `readonly` prefix from `T`
  *
- * @typedef {Object} Mutable
  * @category Utility
  * @example
  * ```

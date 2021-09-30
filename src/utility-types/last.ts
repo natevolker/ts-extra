@@ -4,7 +4,6 @@ import { Pop } from './pop';
 /**
  * Returns the last item of the Array `T`
  *
- * @typedef {Object} Last
  * @category Utility
  * @example
  * ```
