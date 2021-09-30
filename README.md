@@ -23,7 +23,7 @@ yarn add -D @oakfinch/ts-extra
 
 ## Usage
 
-See [the API documentation](https://natevolker.github.io/ts-extra/modules.html) for details
+See [the API documentation](https://oakfinch.github.io/ts-extra/modules.html) for details
 
 ## Examples
 
