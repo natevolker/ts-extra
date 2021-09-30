@@ -28,7 +28,7 @@ See [the API documentation](https://natevolker.github.io/ts-extra/modules.html) 
 ## Examples
 
 ```TypeScript
-import { Mutable } from 'ts-extra';
+import { Mutable } from '@volker/ts-extra';
 const DEFAULTS = [1, 2, 3] as const;
 
 const fn = <T extends number[]>(
@@ -46,7 +46,7 @@ const result = fn(1, (DEFAULTS as Mutable<typeof DEFAULTS>));
 ```
 
 ```TypeScript
-import { Value, Tuple } from 'ts-extra';
+import { Value, Tuple } from '@volker/ts-extra';
 
 const ENV_CONFIG = {
   LOCAL: {
