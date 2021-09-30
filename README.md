@@ -3,7 +3,7 @@ Extended utility types and functions for TypeScript
 
 ------
 
-[github](https://github.com/natevolker/ts-extra) | [docs](https://natevolker.github.io/ts-extra/modules.html) | [npm](https://www.npmjs.com/package/@oakfinch/ts-extra)
+[github](https://github.com/oakfinch/ts-extra) | [docs](https://oakfinch.github.io/ts-extra/modules.html) | [npm](https://www.npmjs.com/package/@oakfinch/ts-extra)
 
 ------
 
