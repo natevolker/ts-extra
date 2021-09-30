@@ -13,9 +13,9 @@ import { Tuple } from './tuple';
  * type B = Entries<{ [index: string | number]: any }> // === [string | number, any][]
  * ```
  */
-export type Entries<T extends AnyObject> =
+export type Entries<T extends Readonly<AnyObject>> =
   Extract<Index, keyof T> extends never
     ? Tuple<Value<{
-      [PKey in keyof T]: Value<{ [PVal in T[PKey]]: [PKey, PVal] }>
+      [PKey in keyof T]: [PKey, T[PKey]]
     }>>
     : [keyof T, Value<T>][];
