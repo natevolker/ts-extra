@@ -1,9 +1,24 @@
 # ts-extra
+
 Extended utility types and functions for TypeScript
+
+[![TypeScript](https://img.shields.io/badge/--3178C6?logo=typescript&logoColor=ffffff)](https://www.typescriptlang.org/)
+
+[![npm](https://badgen.net/npm/v/@oakfinch/ts-extra)](https://npmjs.com/package/@oakfinch/ts-extra)
+
+[![license](https://badgen.net/github/license/@oakfinch/ts-extra)](https://github.com/oakfinch/ts-extra/blob/main/LICENSE)
+
+[![Build](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml)
+
+[![Tests](https://github.com/oakfinch/ts-extra/actions/workflows/tests.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/tests.yml)
+
+[![CodeQL](https://github.com/oakfinch/ts-extra/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/codeql-analysis.yml)
 
 ------
 
-[github](https://github.com/oakfinch/ts-extra) | [docs](https://oakfinch.github.io/ts-extra/modules.html) | [npm](https://www.npmjs.com/package/@oakfinch/ts-extra)
+[![github](https://badgen.net/badge/icon/github?icon=github&scale=2&label=)](https://github.com/oakfinch/ts-extra/)
+
+[![docs](https://badgen.net/badge/%F0%9F%93%8B/documentation?scale=2)](https://oakfinch.github.io/ts-extra/modules.html)
 
 ------
 
