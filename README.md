@@ -11,7 +11,7 @@ Extended utility types and functions for TypeScript
 
 [![latest release on npm](https://badgen.net/npm/v/@oakfinch/ts-extra?icon=npm&label=)](https://npmjs.com/package/@oakfinch/ts-extra)
 [![latest release on github](https://badgen.net/github/release/oakfinch/ts-extra?icon=github&label=)](https://github.com/oakfinch/ts-extra/releases/latest)
-[![minified + gzipped](https://badgen.net/bundlephobia/minzip/@oakfinch/ts-extra)](https://bundlephobia.com/package/@oakfinch/ts-extra)
+[![minified + gzipped](https://badgen.net/bundlephobia/minzip/@oakfinch/ts-extra?label=minified+gzipped)](https://bundlephobia.com/package/@oakfinch/ts-extra)
 
 ------
 
