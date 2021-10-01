@@ -2,12 +2,15 @@
 
 Extended utility types and functions for TypeScript
 
-[![TypeScript](https://badgen.net/badge/icon/TypeScript?icon=typescript&label=)](https://www.typescriptlang.org/)
-[![npm](https://badgen.net/npm/v/@oakfinch/ts-extra)](https://npmjs.com/package/@oakfinch/ts-extra)
 [![license](https://badgen.net/github/license/oakfinch/ts-extra)](https://github.com/oakfinch/ts-extra/blob/main/LICENSE)
+[![TypeScript](https://badgen.net/badge/icon/TypeScript?icon=typescript&label=)](https://www.typescriptlang.org/)
+
 [![Build](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml)
 [![Tests](https://github.com/oakfinch/ts-extra/actions/workflows/tests.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/tests.yml)
 [![CodeQL](https://github.com/oakfinch/ts-extra/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/codeql-analysis.yml)
+
+[![latest release on npm](https://badgen.net/npm/v/@oakfinch/ts-extra?icon=npm&label=)](https://npmjs.com/package/@oakfinch/ts-extra)
+[![latest release on github](https://badgen.net/github/release/oakfinch/ts-extra?icon=github&label=)](https://github.com/oakfinch/ts-extra/releases/latest)
 
 ------
 
