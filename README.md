@@ -2,7 +2,7 @@
 
 Extended utility types and functions for TypeScript
 
-[![TypeScript](https://badgen.net/badge/icon/TypeScript?icon=typescript)](https://www.typescriptlang.org/)
+[![TypeScript](https://badgen.net/badge/icon/TypeScript?icon=typescript&label=)](https://www.typescriptlang.org/)
 [![npm](https://badgen.net/npm/v/@oakfinch/ts-extra)](https://npmjs.com/package/@oakfinch/ts-extra)
 [![license](https://badgen.net/github/license/oakfinch/ts-extra)](https://github.com/oakfinch/ts-extra/blob/main/LICENSE)
 [![Build](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml/badge.svg)](https://github.com/oakfinch/ts-extra/actions/workflows/build.yml)
