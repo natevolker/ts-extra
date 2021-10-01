@@ -1,6 +1,7 @@
 # ts-extra
-
 Extended utility types and functions for TypeScript
+
+------
 
 [![license](https://badgen.net/github/license/oakfinch/ts-extra)](https://github.com/oakfinch/ts-extra/blob/main/LICENSE)
 [![TypeScript](https://badgen.net/badge/icon/TypeScript?icon=typescript&label=)](https://www.typescriptlang.org/)
