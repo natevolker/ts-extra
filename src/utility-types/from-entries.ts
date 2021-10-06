@@ -12,12 +12,9 @@ type FromEntriesInner<T extends [Index, any][], U = { }> =
       ? K0 extends Index
         ? TRest extends [Index, any][]
           ? FromEntriesInner<TRest, U & Record<K0, V0>>
-          // eslint-disable-next-line @typescript-eslint/ban-types
-          : 'a'
-        // eslint-disable-next-line @typescript-eslint/ban-types
+          : never
         : U
-      // eslint-disable-next-line @typescript-eslint/ban-types
-      : 'c';
+      : never;
 
 /**
  * An object constructed from entries `T` (like those returned from `Object.entries`)
