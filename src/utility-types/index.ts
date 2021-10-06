@@ -1,9 +1,11 @@
 export type { ArrayItem } from './array-item';
 export type { First } from './first';
+export type { Entries } from './entries';
 export type { FromEntries } from './from-entries';
 export type { Intersection } from './intersection';
 export type { Invert } from './invert';
 export type { Last } from './last';
+export type { MergeArrays } from './merge-arrays';
 export type { Mutable } from './mutable';
 export type { Pop } from './pop';
 export type { Simplify } from './simplify';
