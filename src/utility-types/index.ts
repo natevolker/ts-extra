@@ -9,6 +9,7 @@ export type { Last } from './last';
 export type { MergeArrays } from './merge-arrays';
 export type { Mutable } from './mutable';
 export type { Pop } from './pop';
+export type { Reverse } from './reverse';
 export type { Simplify } from './simplify';
 export type { Tuple } from './tuple';
 export type { Unshift } from './unshift';
