@@ -101,13 +101,25 @@ type SubtractHelper<A extends string | number | bigint, B extends string | numbe
 export type Add<A extends number, B extends number> =
   AddHelper<A, B> extends infer T
     ? T extends string
-      ? Convert<T>
-      : number
+      ? Convert<T> extends infer T0
+        ? T0 extends number
+          ? T0
+          : number
+        : never
+      : T extends number
+        ? T
+        : never
     : never;
 
 export type Subtract<A extends number, B extends number> =
   SubtractHelper<A, B> extends infer T
     ? T extends string
-      ? Convert<T>
-      : number
+      ? Convert<T> extends infer T0
+        ? T0 extends number
+          ? T0
+          : number
+        : never
+      : T extends number
+        ? T
+        : never
     : never;

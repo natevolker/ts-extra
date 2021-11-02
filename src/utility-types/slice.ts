@@ -28,5 +28,5 @@ export type Slice<T extends readonly any[], S extends number = 0, E = DefinedLen
   DefinedLength<T> extends never
     ? T
     : E extends number
-      ? SliceEnd<SliceStart<T, S>, Subtract<T['length'], E>>
+      ? SliceStart<SliceEnd<T, Subtract<T['length'], E>>, S>
       : [];
