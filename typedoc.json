@@ -8,6 +8,14 @@
     "LastOfUnion",
     "DefinedLength",
     "Merge",
-    "FromEntriesInner"
+    "FromEntriesInner",
+    "RangeOf1",
+    "RangeOf2",
+    "ReverseHelper",
+    "SliceEnd",
+    "SliceStart",
+    "BuildPowersOf2LengthArrays",
+    "Replace",
+    "ConcatLargestUntilDone"
   ]
 }
