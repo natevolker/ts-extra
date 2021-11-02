@@ -1,4 +1,4 @@
-import { TupleOf } from '../tuple';
+import { TupleOf } from './tuple';
 
 export type Subtract<T extends number, U extends number> =
   U extends 0

@@ -1,4 +1,4 @@
-import { TupleOf } from '../tuple';
+import { TupleOf } from './tuple';
 
 export type Add<T extends number, U extends number> =
   T extends 0 ? U :
