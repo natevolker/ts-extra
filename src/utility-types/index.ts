@@ -1,4 +1,4 @@
-export type { Add } from './add';
+export type { Add, Subtract } from './add';
 export type { ArrayItem } from './array-item';
 export type { First } from './first';
 export type { Entries } from './entries';
@@ -14,7 +14,6 @@ export type { Range } from './range';
 export type { Reverse } from './reverse';
 export type { Simplify } from './simplify';
 export type { Slice } from './slice';
-export type { Subtract } from './subtract';
 export type { TrimStart, TrimEnd, Trim } from './trim';
 export type { Tuple, TupleOf } from './tuple';
 export type { Unshift } from './unshift';

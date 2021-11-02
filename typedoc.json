@@ -16,6 +16,9 @@
     "SliceStart",
     "BuildPowersOf2LengthArrays",
     "Replace",
-    "ConcatLargestUntilDone"
+    "ConcatLargestUntilDone",
+    "AddHelper",
+    "Convert",
+    "SubtractHelper"
   ]
 }
