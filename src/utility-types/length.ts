@@ -10,5 +10,5 @@ import { AnyArray } from '../types';
  * type B = DefinedLength<['hello', 'goodbye']> // === 2
  * ```
  */
-export type DefinedLength<T extends Readonly<AnyArray>> =
+export type Length<T extends Readonly<AnyArray>> =
   number extends T['length'] ? never : T['length'];

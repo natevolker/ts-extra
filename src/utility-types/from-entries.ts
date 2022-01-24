@@ -2,11 +2,11 @@
 import { Simplify } from './simplify';
 import { Unshift } from './unshift';
 import { Index } from '../types/object-index';
-import { DefinedLength } from './defined-length';
+import { Length } from './length';
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 type FromEntriesInner<T extends [Index, any][], U = { }> =
-  DefinedLength<T> extends never
+  Length<T> extends never
     ? Record<T[number][0], T[number][1]>
     : Unshift<T> extends [[infer K0, infer V0], infer TRest]
       ? K0 extends Index

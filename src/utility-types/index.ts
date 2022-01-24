@@ -4,6 +4,7 @@ export type { First } from './first';
 export type { Entries } from './entries';
 export type { FromArgs } from './from-args';
 export type { FromEntries } from './from-entries';
+export type { Length } from './length';
 export type { Intersection } from './intersection';
 export type { Invert } from './invert';
 export type { Last } from './last';

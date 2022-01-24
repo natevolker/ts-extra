@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { DefinedLength } from './defined-length';
+import { Length } from './length';
 
 export type FromArgs<T extends readonly any[], U extends readonly any[] = []> =
-  DefinedLength<T> extends never
+  Length<T> extends never
     ? T
     : T extends never[]
       ? U
