@@ -1,6 +1,6 @@
 {
   "name": "@oakfinch/ts-extra",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Extended utility types and functions for TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -44,7 +44,7 @@
     "husky": "^7.0.2",
     "jest": "^27.2.4",
     "ts-jest": "^27.0.5",
-    "typedoc": "^0.22.4",
+    "typedoc": "^0.22.11",
     "typescript": "^4.4.3"
   },
   "dependencies": {}
