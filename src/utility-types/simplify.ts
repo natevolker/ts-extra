@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { AnyObject } from '../types';
+import { AnyObject } from "../types";
 
 /**
  * Attempts to expand type definitions
@@ -50,4 +50,6 @@ import { AnyObject } from '../types';
  * }
  * ```
  */
-export type Simplify<T extends any> = T extends AnyObject ? { [P in keyof T]: T[P] } : T;
+export type Simplify<T extends any> = T extends AnyObject
+  ? { [P in keyof T]: T[P] }
+  : T;

@@ -11,7 +11,7 @@
     "prepare": "husky install",
     "build": "rm -rf dist; tsc",
     "build:docs": "typedoc",
-    "lint": "eslint",
+    "lint": "eslint --ext js,cjs,mjs,ts,jsx,tsx,json .",
     "typecheck": "tsc --noEmit",
     "test": "jest",
     "pre-push": "npm run lint; npm run typecheck; npm run test; npm run build:docs; git add ./docs/*; git commit --amend --no-edit || true"
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/oakfinch/ts-extra#readme",
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
-    "@oakfinch/eslint-config": "^2.0.9",
+    "@oakfinch/eslint-config": "^2.0.10",
     "@oakfinch/jest-config": "^2.0.0",
     "@oakfinch/tsconfig": "^2.0.0",
     "@types/jest": "^27.0.2",

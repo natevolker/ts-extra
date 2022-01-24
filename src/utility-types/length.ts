@@ -1,4 +1,4 @@
-import { AnyArray } from '../types';
+import { AnyArray } from "../types";
 
 /**
  * Returns the length of the Array `T`, provided it is not `number`
@@ -10,5 +10,6 @@ import { AnyArray } from '../types';
  * type B = DefinedLength<['hello', 'goodbye']> // === 2
  * ```
  */
-export type Length<T extends Readonly<AnyArray>> =
-  number extends T['length'] ? never : T['length'];
+export type Length<T extends Readonly<AnyArray>> = number extends T["length"]
+  ? never
+  : T["length"];

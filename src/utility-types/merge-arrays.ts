@@ -1,19 +1,24 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { ArrayItem } from './array-item';
-import { Length } from './length';
+import { ArrayItem } from "./array-item";
+import { Length } from "./length";
 
 type Merge<
   A extends readonly any[],
   B extends readonly any[],
-  C extends any[] = [],
-> = A[number] extends never ? C : B[number] extends never ? C :
-  A extends readonly [infer A0, ...infer ARest]
-    ? B extends readonly [infer B0, ...infer BRest]
-      ? ARest extends readonly any[] ? BRest extends readonly any[]
+  C extends any[] = []
+> = A[number] extends never
+  ? C
+  : B[number] extends never
+  ? C
+  : A extends readonly [infer A0, ...infer ARest]
+  ? B extends readonly [infer B0, ...infer BRest]
+    ? ARest extends readonly any[]
+      ? BRest extends readonly any[]
         ? Merge<ARest, BRest, [...C, [A0, B0]]>
-        : never : never
-      : [ArrayItem<A>, ArrayItem<B>][]
-    : [ArrayItem<A>, ArrayItem<B>][];
+        : never
+      : never
+    : [ArrayItem<A>, ArrayItem<B>][]
+  : [ArrayItem<A>, ArrayItem<B>][];
 
 /**
  * Merges array items from two arrays into a single array
@@ -25,9 +30,8 @@ type Merge<
  * type B = Merge<string[], number[]> // === [string, number][]
  * ```
  */
-export type MergeArrays<
-  T extends readonly any[],
-  U extends readonly any[],
-> = Length<T> | Length<U> extends never
+export type MergeArrays<T extends readonly any[], U extends readonly any[]> =
+  | Length<T>
+  | Length<U> extends never
   ? [ArrayItem<T>, ArrayItem<U>][]
   : Merge<T, U>;

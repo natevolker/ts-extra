@@ -1,16 +1,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { ArrayItem } from './array-item';
+import { ArrayItem } from "./array-item";
 
 type ReverseHelper<
   T extends readonly any[],
-  U extends any[] = [],
+  U extends any[] = []
 > = T[number] extends never
   ? U
   : T extends readonly [...infer TRest, infer TLast]
-    ? TRest extends readonly any[]
-      ? ReverseHelper<TRest, [...U, TLast]>
-      : never
-    : ArrayItem<T>[];
+  ? TRest extends readonly any[]
+    ? ReverseHelper<TRest, [...U, TLast]>
+    : never
+  : ArrayItem<T>[];
 
 /**
  * Reverse the order of Array type T

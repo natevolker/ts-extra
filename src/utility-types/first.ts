@@ -1,5 +1,5 @@
-import { AnyArray } from '../types';
-import { Unshift } from './unshift';
+import { AnyArray } from "../types";
+import { Unshift } from "./unshift";
 
 /**
  * Returns the first item of the Array `T`

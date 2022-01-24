@@ -6,7 +6,6 @@
  * @typedef {Object} AnyFunction
  * @category Everyday
  */
-export type AnyFunction<
-  TArgs extends readonly any[] = any[],
-  TReturn = any,
-> = (...args: TArgs) => TReturn;
+export type AnyFunction<TArgs extends readonly any[] = any[], TReturn = any> = (
+  ...args: TArgs
+) => TReturn;

@@ -1,5 +1,5 @@
-import { AnyArray, AnyObject } from '../types';
-import { ArrayItem } from './array-item';
+import { AnyArray, AnyObject } from "../types";
+import { ArrayItem } from "./array-item";
 
 /**
  * A Union of array items or object values
@@ -12,6 +12,4 @@ import { ArrayItem } from './array-item';
  * ```
  */
 export type Value<T extends Readonly<AnyObject> | Readonly<AnyArray>> =
-  T extends Readonly<AnyArray>
-    ? ArrayItem<T>
-    : T[keyof T];
+  T extends Readonly<AnyArray> ? ArrayItem<T> : T[keyof T];

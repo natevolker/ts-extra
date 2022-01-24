@@ -1,5 +1,5 @@
-import { AnyArray } from '../types';
-import { Pop } from './pop';
+import { AnyArray } from "../types";
+import { Pop } from "./pop";
 
 /**
  * Returns the last item of the Array `T`
