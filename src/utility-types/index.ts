@@ -1,4 +1,5 @@
 export type { Add, Subtract } from "./add";
+export type { ArrayIndex } from "./array-index";
 export type { ArrayItem } from "./array-item";
 export type { First } from "./first";
 export type { Entries } from "./entries";
