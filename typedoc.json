@@ -6,7 +6,6 @@
   "intentionallyNotExported": [
     "UnionToTuple",
     "LastOfUnion",
-    "DefinedLength",
     "Merge",
     "FromEntriesInner",
     "RangeOf1",
