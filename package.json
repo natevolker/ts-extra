@@ -1,9 +1,9 @@
 {
   "name": "@oakfinch/ts-extra",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Extended utility types and functions for TypeScript",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
   "files": [
     "dist"
   ],
