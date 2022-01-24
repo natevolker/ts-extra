@@ -2,7 +2,7 @@
 /* eslint-disable max-len */
 import { AnyArray, AnyFunction } from '../types';
 import { Intersection } from './intersection';
-import { DefinedLength } from './defined-length';
+import { Length } from './length';
 
 /**
  * @hidden
@@ -42,7 +42,7 @@ type UnionToTuple<
  */
 export type Tuple<T> = Exclude<T, LastOfUnion<T>> extends never
   ? T extends Readonly<AnyArray>
-    ? DefinedLength<T> extends never
+    ? Length<T> extends never
       ? UnionToTuple<T>
       : T
     : UnionToTuple<T>

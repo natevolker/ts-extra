@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { ArrayItem } from './array-item';
-import { DefinedLength } from './defined-length';
+import { Length } from './length';
 
 type Merge<
   A extends readonly any[],
@@ -28,6 +28,6 @@ type Merge<
 export type MergeArrays<
   T extends readonly any[],
   U extends readonly any[],
-> = DefinedLength<T> | DefinedLength<U> extends never
+> = Length<T> | Length<U> extends never
   ? [ArrayItem<T>, ArrayItem<U>][]
   : Merge<T, U>;

@@ -31,9 +31,9 @@
   "homepage": "https://github.com/oakfinch/ts-extra#readme",
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
-    "@oakfinch/eslint-config": "^1.0.2",
-    "@oakfinch/jest-config": "^1.0.2",
-    "@oakfinch/tsconfig": "^1.0.5",
+    "@oakfinch/eslint-config": "^2.0.0",
+    "@oakfinch/jest-config": "^2.0.0",
+    "@oakfinch/tsconfig": "^2.0.0",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
