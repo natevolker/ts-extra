@@ -1,6 +1,6 @@
 {
   "name": "@oakfinch/ts-extra",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Extended utility types and functions for TypeScript",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
@@ -31,9 +31,9 @@
   "homepage": "https://github.com/oakfinch/ts-extra#readme",
   "devDependencies": {
     "@microsoft/tsdoc": "^0.13.2",
-    "@oakfinch/eslint-config": "^2.0.10",
+    "@oakfinch/eslint-config": "^2.0.17",
     "@oakfinch/jest-config": "^2.0.0",
-    "@oakfinch/tsconfig": "^2.0.0",
+    "@oakfinch/tsconfig": "^2.0.6",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
